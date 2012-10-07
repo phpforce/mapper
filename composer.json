@@ -1,0 +1,19 @@
+{
+    "name": "phpforce/mapper",
+    "description": "A mapper for the Salesforce client",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "David de Boer",
+            "email": "david@ddeboer.nl"
+        }
+    ],
+    "require": {
+        "doctrine/common": ">=2.3@stable"
+    },
+    "autoload": {
+        "psr-0": {
+            "Phpforce\\Mapper": "src"
+        }
+    }
+}
